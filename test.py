@@ -27,6 +27,10 @@ df["published_at"] = pd.to_datetime(df["published_at"])
 date_start = input("Enter start date: (yyyy/mm/dd)")
 date_end = input("Enter end date: (yyyy/mm/dd)")
 
+if(date_start == '1' and date_end == '1'):
+    date_start = '2024/01/01'
+    date_end = '2024/12/31'
+
 try:
     date_start = datetime.strptime(date_start, "%Y/%m/%d").replace(tzinfo = timezone.utc)
     date_end =datetime.strptime(date_end, "%Y/%m/%d").replace(tzinfo = timezone.utc)
@@ -44,7 +48,21 @@ if(date_start > date_end):
 
 df_time_range = df[(df['published_at'] >= date_start) & (df['published_at'] <= date_end)]
 
-# %%
+#Dataframe has to be split into two more subgroups, shorts and longform
+#because shorts have different egnagement rates than longform vids
+df_shorts = df_time_range[df_time_range["duration_readable"] < 3 ]
+df_longform = df_time_range[df_time_range["duration_readable"] >= 3]
 
-print(df_time_range.head())
-print(df.head)
+# %%
+#this is just to test that the df being made correctly
+print("2024")
+print(df_time_range["published_at"].head())
+
+print("original")
+print(df["published_at"].head)
+# %%
+# next i want to cluster the data by likes and views
+# and see what videos are in the most liked group. Then I'll 
+# try to assign them a label based on the majority of the titles
+# probably need to compare how similar the titles are to each
+# other using some kind of word vector thing
