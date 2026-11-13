@@ -10,12 +10,12 @@ from sklearn.metrics import (accuracy_score,
 df = pd.read_csv('youtube_tech_videos_dataset.csv')
 
 #prompting the user for a desired timeframe to search trends and validating the date
-time_start = input("Enter start date: (yyyy/mm/dd)")
-time_end = input("Enter end date: (yyyy/mm/dd)")
+time_start = input("Enter start date: (yyyy/mm/dd) ")
+time_end = input("Enter end date: (yyyy/mm/dd) ")
 
 try:
     time_start = datetime.strptime(time_start, "%Y/%m/%d")
-    time_end =datetime.strptime(time_end, "%Y/%m/%d")
+    time_end = datetime.strptime(time_end, "%Y/%m/%d")
 
     print("start time: ", time_start)
     print("end time: ", time_end)
