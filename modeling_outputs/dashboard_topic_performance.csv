@@ -1,0 +1,65 @@
+video_format,topic,performance_rank,video_count,topic_total_videos,percentage_within_topic
+Shorts,Gaming PCs,1,31,41,75.61
+Shorts,Gaming PCs,2,7,41,17.07
+Shorts,Gaming PCs,3,3,41,7.32
+Shorts,Gaming PCs,4,0,41,0.0
+Shorts,Mixed / Multilingual,1,16,67,23.88
+Shorts,Mixed / Multilingual,2,35,67,52.24
+Shorts,Mixed / Multilingual,3,14,67,20.9
+Shorts,Mixed / Multilingual,4,2,67,2.99
+Shorts,Apple / Mobile,1,4,24,16.67
+Shorts,Apple / Mobile,2,17,24,70.83
+Shorts,Apple / Mobile,3,3,24,12.5
+Shorts,Apple / Mobile,4,0,24,0.0
+Shorts,AI,1,4,27,14.81
+Shorts,AI,2,12,27,44.44
+Shorts,AI,3,10,27,37.04
+Shorts,AI,4,1,27,3.7
+Shorts,General Tech,1,7,61,11.48
+Shorts,General Tech,2,35,61,57.38
+Shorts,General Tech,3,16,61,26.23
+Shorts,General Tech,4,3,61,4.92
+Shorts,Web Development,1,1,18,5.56
+Shorts,Web Development,2,7,18,38.89
+Shorts,Web Development,3,10,18,55.56
+Shorts,Web Development,4,0,18,0.0
+Shorts,AWS / Cloud,1,0,16,0.0
+Shorts,AWS / Cloud,2,1,16,6.25
+Shorts,AWS / Cloud,3,14,16,87.5
+Shorts,AWS / Cloud,4,1,16,6.25
+Shorts,Python,1,0,16,0.0
+Shorts,Python,2,9,16,56.25
+Shorts,Python,3,7,16,43.75
+Shorts,Python,4,0,16,0.0
+Long-form,Gaming PCs,1,53,76,69.74
+Long-form,Gaming PCs,2,20,76,26.32
+Long-form,Gaming PCs,3,1,76,1.32
+Long-form,Gaming PCs,4,2,76,2.63
+Long-form,Mixed / Multilingual,1,28,172,16.28
+Long-form,Mixed / Multilingual,2,47,172,27.33
+Long-form,Mixed / Multilingual,3,85,172,49.42
+Long-form,Mixed / Multilingual,4,12,172,6.98
+Long-form,Apple / Mobile,1,41,100,41.0
+Long-form,Apple / Mobile,2,41,100,41.0
+Long-form,Apple / Mobile,3,16,100,16.0
+Long-form,Apple / Mobile,4,2,100,2.0
+Long-form,AI,1,12,85,14.12
+Long-form,AI,2,23,85,27.06
+Long-form,AI,3,45,85,52.94
+Long-form,AI,4,5,85,5.88
+Long-form,General Tech,1,42,173,24.28
+Long-form,General Tech,2,74,173,42.77
+Long-form,General Tech,3,47,173,27.17
+Long-form,General Tech,4,10,173,5.78
+Long-form,Web Development,1,11,60,18.33
+Long-form,Web Development,2,40,60,66.67
+Long-form,Web Development,3,5,60,8.33
+Long-form,Web Development,4,4,60,6.67
+Long-form,AWS / Cloud,1,8,54,14.81
+Long-form,AWS / Cloud,2,18,54,33.33
+Long-form,AWS / Cloud,3,26,54,48.15
+Long-form,AWS / Cloud,4,2,54,3.7
+Long-form,Python,1,10,61,16.39
+Long-form,Python,2,16,61,26.23
+Long-form,Python,3,35,61,57.38
+Long-form,Python,4,0,61,0.0
